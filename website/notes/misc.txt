@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <h1>Welcome to My Website</h1>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
+
+-> if you type ! it will auto generate html strucure
+-> <link rel="stylesheet" href="styles.css"> here rel = relationship,  linked html with css file
+-> <script is to link html with js file
+
+---------------------------------------------------------------------------------------------------------
+-> in JS file
+
+console.log("Hello");
+console.log("I am new to JavaScript."); // This will log a message to the console
+
+window.alert("Welcome to my website!"); // This will show an alert message when the page loads
+
+---------------------------------------------------------------------------------------------------
+html file-
+
+<h1 id='myH1'></h1>
+<p id='myP'></p>
+
+JS file-
+
+document.getElementById("myH1").textContent = "Welcome to My Website"; // This will change the content of the h1 element
+document.getElementById("myP").textContent = "This is a simple webpage created using HTML, CSS, and JavaScript."; // This will change the content of the p element
